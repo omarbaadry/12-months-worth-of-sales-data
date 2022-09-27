@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from itertools import combinations
 from collections import Counter
 
-#12 monthes in single csv file 
+#12 monthes in single csv 
 files=[file for file in os.listdir('C:/Users/win10/Desktop/Sales_Data')]
 all_months_data=pd.DataFrame()
 for file in files:
